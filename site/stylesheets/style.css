@@ -8,14 +8,10 @@ body {
   margin: 0 auto;
   background: #cff3ff;
 }
-header {
-  background: #
-  position: relative;
-  text-align: center;
-}
 
 header h1 {
   font-family: 'Londrina Sketch', cursive;
+  text-align: center;
   font-size: 75px;
   color: #6a6a6a;
   margin: 60px 0 0 0;
@@ -24,11 +20,6 @@ header h2 {
   text-align: center;
   color: #aaa;
   margin: 10px 0 70px 0;
-}
-
-header p {
-  text-align: center;
-  font-size: 1em;
 }
 
 section.container {
@@ -43,9 +34,13 @@ section.container {
   background: #a6a6a6;
 }
 .box-content h1 {
+  position: relative;
+  top: 0;
+  left: 65%;
+  width: 30%;
   font-family: 'Londrina Solid', cursive;
   padding: 5px 10px 5px 5px;
-  text-align: right;
+  text-align: center;
   border: 2px solid #aaa;
   border-radius: 3px;
 }
