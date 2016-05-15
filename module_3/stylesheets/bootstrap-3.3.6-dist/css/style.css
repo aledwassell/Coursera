@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #cff3ff;
+  font-family: 'Roboto', sans-serif;
+}
+#header-nav {
+  background-color: #a6a6a6;
+  border-radius: 0;
+  border: 0;
+  height: 500px
+}
+.navbar-brand {
+  padding-top: 30px;
+}
+.navbar-brand h1 {
+  font-size: 2em;
+  font-family: 'Londrina Sketch', cursive;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #a6a6a6;
+  background: #cff3ff;
+}
