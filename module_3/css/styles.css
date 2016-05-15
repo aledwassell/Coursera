@@ -51,7 +51,7 @@ body {
 
 
 #menu-tile, #contact-tile, #map-tile {
-  height: 250px;
+  height: 275px;
   width: 100%;
   margin-bottom: 20px;
   position: relative;
@@ -85,4 +85,23 @@ body {
 }
 #map-tile span {
   background: #b3e6b3;
+}
+#main-content a:hover, #main-content a:focus {
+  text-decoration: none;
+}
+
+/*xs devices*/
+@media (max-width: 767px) {
+
+  /*Header*/
+  .navbar-brand {
+    height: 70px;
+  }
+  /*.navbar-brand h1 {
+    font-size: 5vw;
+  }*/
+  #menu-tile, #contact-tile {
+    margin: 0 auto 15px;
+  }
+
 }
