@@ -12,6 +12,9 @@ body {
 .navbar-brand {
   padding-top: 10px;
 }
+.navbar-brand a:hover {
+  text-decoration: none;
+}
 .navbar-brand h1 {
   font-size: 2em;
   font-family: 'Londrina Sketch', cursive;
