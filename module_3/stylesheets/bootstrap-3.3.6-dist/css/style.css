@@ -8,10 +8,9 @@ body {
   background-color: #a6a6a6;
   border-radius: 0;
   border: 0;
-  height: 500px
 }
 .navbar-brand {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 .navbar-brand h1 {
   font-size: 2em;
@@ -20,8 +19,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+#nav-list {
+  margin-top: 5px;
+}
 #nav-list a {
+  font-size: 1em;
   color: #fff;
   text-align: center;
 }
