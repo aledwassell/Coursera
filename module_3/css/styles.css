@@ -10,18 +10,22 @@ body {
   border: 0;
 }
 .navbar-brand {
-  padding-top: 10px;
-}
-.navbar-brand a:hover {
-  text-decoration: none;
+  padding-top: 15px;
 }
 .navbar-brand h1 {
   font-size: 2em;
   font-family: 'Londrina Sketch', cursive;
   color: #fff;
+  line-height: .75;
   margin-top: 0;
   margin-bottom: 0;
 }
+/*include both styles to stop text-decoration!!*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*Navifation List*/
 #nav-list {
   margin-top: 5px;
 }
@@ -36,4 +40,49 @@ body {
 }
 #map-tile {
   height: 250px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: none;
+}
+.navbar-toggle .collapsed span .icon-bar {
+  color: #fff;
+}
+
+
+#menu-tile, #contact-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #a6a6a6;
+  border-radius: 2px;
+  overflow: hidden;
+}
+#menu-tile:hover, #contact-tile:hover, #map-tile:hover {
+  box-shadow: 0 2px 4px 2px #ccc;
+}
+#menu-tile span, #contact-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  text-align: center;
+  font-size: 1.25em;
+  background-color: #fff;
+  color: #000;
+}
+#menu-tile p, #contact-tile p {
+  padding: 10px;
+  overflow: auto;
+  color: #fff;
+}
+#menu-tile span {
+  background: #ff8080;
+}
+#contact-tile span {
+  background: #ffff99;
+}
+#map-tile span {
+  background: #b3e6b3;
 }
