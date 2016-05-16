@@ -63,6 +63,7 @@ body {
   box-shadow: 0 2px 4px 2px #ccc;
 }
 #menu-tile span, #contact-tile span, #map-tile span {
+  font-family: 'Londrina Solid', cursive;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -70,7 +71,7 @@ body {
   text-align: center;
   font-size: 1.25em;
   background-color: #fff;
-  color: #000;
+  color: #6a6a6a;
 }
 #menu-tile p, #contact-tile p {
   padding: 10px;
