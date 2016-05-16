@@ -98,10 +98,9 @@ body {
   .navbar-brand {
     height: 70px;
   }
-  /*.navbar-brand h1 {
+  .navbar-brand h1 {
     font-family: 'Londrina Solid', cursive;
-    font-size: 5vw;
-  }*/
+  }
   #menu-tile, #contact-tile {
     margin: 0 auto 15px;
   }
