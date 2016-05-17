@@ -49,21 +49,6 @@ body {
   color: #fff;
 }
 
-/*Main content*/
-
-.jumbotron {
-  text-align: center;
-  background: #a6a6a6;
-}
-.jumbotron h2 {
-  font-size: 4em;
-  font-family: 'Londrina Solid', cursive;
-  color: #fff;
-}
-.jumbotron span {
-  font-size: 2em;
-  color: #fff;
-}
 
 #menu-tile, #contact-tile, #map-tile {
   height: auto;;
