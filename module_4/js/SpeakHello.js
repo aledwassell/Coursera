@@ -17,7 +17,7 @@
 
   var helloSpeaker = {};
 
-  helloSpeaker.name = names;
+  helloSpeaker.name = names[i];
 
   var speakWord = "Hello";
 

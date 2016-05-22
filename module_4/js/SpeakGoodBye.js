@@ -15,7 +15,7 @@
 
   var byeSpeaker = {};
 
-  byeSpeaker.name = names;
+  byeSpeaker.name = names[i];
 
   var speakWord = "Good Bye";
 
