@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // On first load, show home view
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl,
   buildAndShowHomeHTML, // ***** <---- : STEP 1: Substitute [...] ******
   true); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
@@ -101,7 +100,7 @@ function buildAndShowHomeHTML (categories) {
       // : STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
-      var chosenCategoryShortName = chooseRandomCategory(homeHtmlUrl, allCategoriesUrl, categoriesTitleHtml, menuItemsUrl, menuItemHtml);
+      var chosenCategoryShortName = chooseRandomCategory('L', 'D', 'S');
 
 
       // : STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
